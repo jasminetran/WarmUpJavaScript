@@ -1,8 +1,13 @@
-var Jasmine;
-Jasmine=19
+var jasmine = 19;
 
-if (Jasmine >= 16) {
-  return true
+if (jasmine >= 16) {
+  return true;
 } else {
-  return false
+  return false;
 }
+
+function discount (total, discount)
+  if (total >= 100) {
+    total = total * .5;
+  return discount
+  }
